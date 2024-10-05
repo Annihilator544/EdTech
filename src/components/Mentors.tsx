@@ -13,7 +13,7 @@ function Mentors() {
   return (
     <div className='flex flex-col'>
       <p className="text-base text-[#B8B8B8] text-center">Mentors from industry leaders:</p>
-      <div className="flex mx-auto gap-10 mt-4">
+      <div className="flex mx-auto gap-10 mt-4 flex-wrap">
         <Image src={mentor1} alt="mentor1" />
         <Image src={mentor2} alt="mentor2" />
         <Image src={mentor3} alt="mentor3" />

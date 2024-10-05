@@ -22,7 +22,7 @@ function MeetYourMentors() {
       <Carousel className="w-full mt-10" opts={{ loop: true }}>
             <CarouselContent className="-ml-1">
               {mentors.map((imgURL, index) => (
-                <CarouselItem key={index} className="pl-1  lg:basis-1/6">
+                <CarouselItem key={index} className="pl-1  lg:basis-1/4">
                   <div className="p-1 ">
                     <Card className="overflow-hidden">
                       <CardContent className="flex aspect-square items-center relative justify-center p-0 ">

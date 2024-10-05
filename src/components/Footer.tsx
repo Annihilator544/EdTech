@@ -4,8 +4,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 function Footer() {
   return (
-    <footer className=" pt-32 pb-10 px-5 flex gap-2">
-        <Card className="bg-[#0e1217] max-w-[30%]">
+    <footer className=" pt-32 pb-10 px-5 flex gap-2 max-lg:flex-col">
+        <Card className="bg-[#0e1217] max-w-[30%] max-lg:max-w-full">
             <CardHeader>
                 <Image src={logo} alt="logo"  />
             </CardHeader>

@@ -11,7 +11,7 @@ import WhoWeAre from "@/components/WhoWeAre";
 export default function Home() {
   return (
     <div className="bg-black  text-white">
-      <div className=" h-screen hero flex flex-col">
+      <div className=" h-screen hero flex flex-col gap-10">
         <Navbar />
         <Hero />
       </div>
