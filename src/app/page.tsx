@@ -1,4 +1,5 @@
 import BentoBox from "@/components/BentoBox";
+import Footer from "@/components/Footer";
 import GraduationCertificate from "@/components/GraduationCertificate";
 import Hero from "@/components/Hero";
 import MeetYourMentors from "@/components/MeetYourMentors";
@@ -22,6 +23,7 @@ export default function Home() {
       </div>
       <Premium />
       <WhoWeAre />
+      <Footer />
     </div>
   );
 }
