@@ -5,21 +5,23 @@ import MeetYourMentors from "@/components/MeetYourMentors";
 import Mentors from "@/components/Mentors";
 import Navbar from "@/components/Navbar";
 import Premium from "@/components/Premium";
+import WhoWeAre from "@/components/WhoWeAre";
 
 export default function Home() {
   return (
-    <div className="bg-black">
+    <div className="bg-black  text-white">
       <div className=" h-screen hero flex flex-col">
         <Navbar />
         <Hero />
       </div>
-      <div className="bg-black flex text-white flex-col gap-32 w-[70%] mx-auto">
+      <div className="flex flex-col gap-32 w-[70%] mx-auto">
         <Mentors />
         <BentoBox />
         <MeetYourMentors />
         <GraduationCertificate />
       </div>
       <Premium />
+      <WhoWeAre />
     </div>
   );
 }
