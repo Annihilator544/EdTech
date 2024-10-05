@@ -1,3 +1,4 @@
+import BentoBox from "@/components/BentoBox";
 import Hero from "@/components/Hero";
 import Mentors from "@/components/Mentors";
 import Navbar from "@/components/Navbar";
@@ -11,6 +12,7 @@ export default function Home() {
       </div>
       <div className="bg-black">
         <Mentors />
+        <BentoBox />
       </div>
     </div>
   );
