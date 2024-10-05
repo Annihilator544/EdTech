@@ -11,7 +11,7 @@ import bento9 from "../images/bento9.svg";
 
 function BentoBox() {
   return (
-    <div className="grid grid-rows-[14] grid-cols-8 gap-2 w-[70%] mx-auto mt-32">
+    <div className="grid grid-rows-[14] grid-cols-8 gap-2">
         <div className=" row-span-10 col-span-6 grid grid-cols-6 grid-rows-10 gap-2">
             <BentoCard string1="Graphic" string2="Design" courseNumber={12} imageSrc={bento1} className="col-span-2 row-span-6" />
             <BentoCard string1="UX/UI" string2="Design" courseNumber={7} imageSrc={bento2} className="col-span-2 row-span-6" />
