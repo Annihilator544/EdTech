@@ -14,9 +14,9 @@ function BentoBox() {
     <>
     <div className="grid grid-rows-[14] grid-cols-8 gap-2 max-lg:hidden">
         <div className=" row-span-10 col-span-6 grid grid-cols-6 grid-rows-10 gap-2">
-            <BentoCard string1="Graphic" string2="Design" courseNumber={12} imageSrc={bento1} className="col-span-2 row-span-6" />
-            <BentoCard string1="UX/UI" string2="Design" courseNumber={7} imageSrc={bento2} className="col-span-2 row-span-6" />
-            <BentoCard string1="Web" string2="Development" courseNumber={9} imageSrc={bento3} className="col-span-2 row-span-6" />
+            <BentoCard string1="Graphic" string2="Design" courseNumber={12} imageSrc={bento1} className="col-span-2 row-span-6 flex flex-col" classNameImage="mt-auto" />
+            <BentoCard string1="UX/UI" string2="Design" courseNumber={7} imageSrc={bento2} className="col-span-2 row-span-6 flex flex-col" classNameImage="mt-auto"/>
+            <BentoCard string1="Web" string2="Development" courseNumber={9} imageSrc={bento3} className="col-span-2 row-span-6 flex flex-col" classNameImage="mt-auto"/>
             <BentoCard string1="Project" string2="Management" courseNumber={21} imageSrc={bento5} className="col-span-3 row-span-4" />
             <BentoCard string1="Marketing" string2="" courseNumber={3} imageSrc={bento6} className="col-span-3 row-span-4" />
         </div>
